@@ -1,4 +1,4 @@
-package br.com.projeto.carros;
+package br.com.projeto.xcarros;
 
 import br.com.projeto.carros.principal.Principal;
 import org.springframework.boot.CommandLineRunner;

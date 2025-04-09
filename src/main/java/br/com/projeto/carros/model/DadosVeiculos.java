@@ -6,6 +6,13 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public record DadosVeiculos (@JsonAlias("nome")String nome,
                              @JsonAlias("codigo")Integer codigo){
+    @Override
+    public String toString() {
+        return "Nome: " + nome + "\n" +
+                "Código:" + codigo + "\n" +
+                "----------------------";
+    }
+
 
 }
 
